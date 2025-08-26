@@ -21,7 +21,7 @@ setup(
     install_requires=[
         "librosa",
         # otherwise librosa breaks
-        "numba==0.48",
+        "numba>=0.48",
         # tf 2.6.0
         "numpy>=1.19.2",
         "tensorflow>=2.0",
